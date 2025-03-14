@@ -8,29 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df35466-a385-4da1-bddf-0f29af53a9b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instance/app.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/4510f05ca42a_add_invitation_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/chat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/friends.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/notifications.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/routes/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/routes/chat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,25 +62,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/gecha/PycharmProjects/DatingApp/Web/frontend/src/assets/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "ts.external.directory.path": "C:\\Users\\gecha\\PycharmProjects\\DatingApp\\Web\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gecha/PycharmProjects/DatingApp/Web/frontend/src/assets/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\gecha\\PycharmProjects\\DatingApp\\Web\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gecha\PycharmProjects\DatingApp\Web\frontend\src\assets\images" />
@@ -181,6 +160,7 @@
       <workItem from="1740256443251" duration="6794000" />
       <workItem from="1740440286825" duration="48000" />
       <workItem from="1740948736690" duration="29672000" />
+      <workItem from="1741828476611" duration="2607000" />
     </task>
     <servers />
   </component>

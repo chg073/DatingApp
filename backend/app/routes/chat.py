@@ -5,7 +5,7 @@ from werkzeug.security import check_password_hash
 from openai import OpenAI
 
 DEESEEK_API_URL = "https://api.deepseek.com"
-DEESEEK_API_KEY = "sk-b8dd2104a98b458b92a16d5caf08279e"
+DEESEEK_API_KEY = ""
 
 chat_bp = Blueprint("chat", __name__)
 chat_client = OpenAI(api_key=DEESEEK_API_KEY, base_url=DEESEEK_API_URL)

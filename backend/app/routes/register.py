@@ -6,9 +6,7 @@ from werkzeug.security import generate_password_hash
 from twilio.rest import Client
 from random import randint
 register_bp = Blueprint("register", __name__)
-TWILIO_ACCOUNT_SID = 'AC60dca4f7dadb17e929085aca8794ca1a'
-TWILIO_AUTH_TOKEN = 'f094945b255300484f1e49861b7db571'
-TWILIO_PHONE_NUMBER = '+18588664054'
+
 
 def send_sms_with_twilio(phone_number, message):
     """Send SMS using Twilio."""
