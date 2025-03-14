@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messenger Chat</title>
+  <!-- Link to your CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="messenger-container">
+    <!-- Sidebar containing the friends list -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h3>Friends</h3>
+      </div>
+      <ul class="friends-list" id="friends-list">
+        <!-- Friends will be populated dynamically using JavaScript -->
+      </ul>
+    </div>
+
+    <!-- Chat Window -->
+    <div class="chat-window">
+      <div class="chat-header" id="chat-header">
+        <h3>Chat with <span id="current-friend">Select a Friend</span></h3>
+      </div>
+      <div class="chat-messages" id="chat-messages">
+        <p class="placeholder">Select a friend to start chatting</p>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="message-input" placeholder="Type your message...">
+        <button id="send-button" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+  <!-- Link to your JS -->
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

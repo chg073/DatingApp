@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Validate Invitation Code</title>
+</head>
+<body>
+    <h2>Step 2: Verify Your Invitation Code</h2>
+    <form method="post" action="{{ url_for('register.validate_invitation_code') }}">
+        <label>Verification Code:</label>
+        <input type="text" name="invitation_code" placeholder="Enter the six digits invitation code" required />
+        <button type="submit">Verify</button>
+    </form>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+        <p class="{{ category }}">{{ message }}</p>
+    {% endfor %}
+    {% endwith %}
+</body>
+</html>

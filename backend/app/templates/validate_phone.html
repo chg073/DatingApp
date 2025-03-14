@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Step 2 - Verify Code</title>
+</head>
+<body>
+    <h2>Step 2: Verify Your Phone Number</h2>
+    <form method="post" action="{{ url_for('register.validate_phone') }}">
+        <label>Verification Code:</label>
+        <input type="text" name="verification_code" placeholder="Enter the verification code" required />
+        <button type="submit">Verify</button>
+    </form>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+        <p class="{{ category }}">{{ message }}</p>
+    {% endfor %}
+    {% endwith %}
+</body>
+</html>

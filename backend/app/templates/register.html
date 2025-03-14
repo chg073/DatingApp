@@ -90,7 +90,7 @@
         </div>
       {% endif %}
     {% endwith %}
-  <form method="POST" action="{{ url_for('register') }}">
+  <form method="POST" action="{{ url_for('register.register') }}">
     <div class="form-group">
     <label for="username">Username:</label>
     <input type="text" name="username" id="username" required>
@@ -114,7 +114,7 @@
     <button type="submit">Register</button>
   </form>
   <br>
-  <a href="{{ url_for('login') }}">Back to Login</a>
+  <a href="{{ url_for('auth.login') }}">Back to Login</a>
   </div>
 </body>
 </html>

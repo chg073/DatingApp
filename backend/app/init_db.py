@@ -1,6 +1,6 @@
 # init_db.py
 from app import create_app
-from model import db
+from models.base_model import db
 
 
 def init_database():

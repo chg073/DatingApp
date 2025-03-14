@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        /* Basic styling for invitation code section */
+        #invitation-code {
+            font-size: 24px;
+            color: #007bff;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        button {
+            font-size: 16px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .logout-button {
+            font-size: 14px;
+            color: #fff;
+            background: #ff5c5c;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .logout-button:hover {
+            background: #d9534f;
+        }
+    </style>
+</head>
+<body>
+<h1>Profile Page</h1>
+<p>Welcome to your profile page!</p>
+
+<!-- Button to generate the invitation code -->
+<button id="generate-code-btn">Generate Invitation Code</button>
+
+<!-- Display the generated code -->
+<div id="invitation-code"></div>
+
+<script>
+    // JavaScript to handle button click and show the invitation code
+    document.getElementById('generate-code-btn').addEventListener('click', async () => {
+        try {
+            // Make a POST request to generate the code
+            const response = await fetch('/profile/generate-invitation-code', {method: 'POST'});
+            if (!response.ok) {
+                throw new Error('Failed to generate code');
+            }
+            const data = await response.json();
+
+            // Display the generated invitation code
+            document.getElementById('invitation-code').textContent = `Your Code: ${data.invitation_code}`;
+        } catch (error) {
+            console.error('Error:', error);
+            document.getElementById('invitation-code').textContent = 'Error generating code. Try again.';
+        }
+    });
+
+    // Function to fetch and display all invitation codes
+    async function fetchInvitationCodes() {
+        const response = await fetch('/profile/get-my-invitation-codes');
+        if (!response.ok) {
+            console.error('Failed to fetch invitation codes');
+            return;
+        }
+        const data = await response.json();
+        const codeList = document.getElementById('view-invitation-codes');
+        codeList.innerHTML = ''; // Clear the list
+        data.codes.forEach(code => {
+            const li = document.createElement('li');
+            li.textContent = `${code.code} - Created At: ${code.created_at}`;
+            codeList.appendChild(li);
+        });
+    }
+
+    document.getElementById('view-codes-btn').addEventListener('click', fetchInvitationCodes);
+</script>
+
+<!-- Button to display all valid invitation code -->
+<button id="view-codes-btn">"Display my invitation codes"</button>
+
+<!-- Display all the valid invitation codes -->
+<ul id="view-invitation-codes"></ul>
+<div class="sidebar-header">
+    <!-- Add a logout button -->
+    <a href="{{ url_for('auth.logout') }}" class="logout-button">Logout</a>
+</div>
+</body>
+</html>
