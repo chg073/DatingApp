@@ -1,0 +1,11 @@
+:root {
+    --label-colorlightprimary: rgba(0, 0, 0, 1);
+    --lightgray-11: rgba(0, 0, 0, 1);
+    --system-backgroundlightprimary: rgba(255, 255, 255, 1);
+    --title2-regular-font-family: "SF Pro Display", Helvetica;
+    --title2-regular-font-size: 22px;
+    --title2-regular-font-style: normal;
+    --title2-regular-font-weight: 400;
+    --title2-regular-letter-spacing: 0.3499999940395355px;
+    --title2-regular-line-height: 28px;
+}

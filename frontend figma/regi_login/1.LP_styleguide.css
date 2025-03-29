@@ -1,0 +1,215 @@
+:root {
+    --m3-label-large-font-family: "Roboto", Helvetica;
+    --m3-label-large-font-size: 14px;
+    --m3-label-large-font-style: normal;
+    --m3-label-large-font-weight: 500;
+    --m3-label-large-letter-spacing: 0.10000000149011612px;
+    --m3-label-large-line-height: 20px;
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(101, 85, 143, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-m3-mode="light">
+        <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-m3-mode="light"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(101, 85, 143, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="light-high-contrast"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(39, 23, 78, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="light-medium-contrast"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(73, 57, 113, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="dark"] {
+    --m3-schemes-on-primary: rgba(56, 30, 114, 1);
+    --m3-schemes-primary: rgba(208, 188, 254, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(56, 30, 114, 0.12);
+}
+
+[data-m3-mode="dark-high-contrast"] {
+    --m3-schemes-on-primary: rgba(0, 0, 0, 1);
+    --m3-schemes-primary: rgba(255, 249, 255, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(0, 0, 0, 0.12);
+}
+
+[data-m3-mode="dark-medium-contrast"] {
+    --m3-schemes-on-primary: rgba(27, 9, 66, 1);
+    --m3-schemes-primary: rgba(211, 193, 255, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(27, 9, 66, 0.12);
+}
+
+[data-m3-mode="monochrome-LT"] {
+    --m3-schemes-on-primary: rgba(226, 226, 226, 1);
+    --m3-schemes-primary: rgba(0, 0, 0, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(226, 226, 226, 0.12);
+}
+
+[data-m3-mode="monochrome-DT"] {
+    --m3-schemes-on-primary: rgba(26, 28, 28, 1);
+    --m3-schemes-primary: rgba(255, 255, 255, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(26, 28, 28, 0.12);
+}
+
+[data-m3-mode="pink-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(138, 75, 104, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="pink-DT"] {
+    --m3-schemes-on-primary: rgba(83, 29, 57, 1);
+    --m3-schemes-primary: rgba(254, 176, 209, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(83, 29, 57, 0.12);
+}
+
+[data-m3-mode="rose-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(143, 74, 86, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="rose-DT"] {
+    --m3-schemes-on-primary: rgba(86, 29, 41, 1);
+    --m3-schemes-primary: rgba(255, 178, 189, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(86, 29, 41, 0.12);
+}
+
+[data-m3-mode="red-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(145, 75, 67, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="red-DT"] {
+    --m3-schemes-on-primary: rgba(86, 30, 24, 1);
+    --m3-schemes-primary: rgba(255, 167, 155, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(86, 30, 24, 0.12);
+}
+
+[data-m3-mode="orange-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(141, 79, 40, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="orange-DT"] {
+    --m3-schemes-on-primary: rgba(83, 34, 0, 1);
+    --m3-schemes-primary: rgba(255, 182, 140, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(83, 34, 0, 0.12);
+}
+
+[data-m3-mode="yellow-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(121, 90, 12, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="yellow-DT"] {
+    --m3-schemes-on-primary: rgba(63, 46, 0, 1);
+    --m3-schemes-primary: rgba(233, 193, 108, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(63, 46, 0, 0.12);
+}
+
+[data-m3-mode="chartreuse-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(92, 100, 30, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="chartreuse-DT"] {
+    --m3-schemes-on-primary: rgba(45, 52, 0, 1);
+    --m3-schemes-primary: rgba(195, 205, 124, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(45, 52, 0, 0.12);
+}
+
+[data-m3-mode="green-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(55, 106, 62, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="green-DT"] {
+    --m3-schemes-on-primary: rgba(0, 57, 19, 1);
+    --m3-schemes-primary: rgba(156, 212, 159, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(0, 57, 19, 0.12);
+}
+
+[data-m3-mode="teal-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(0, 107, 96, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="teal-DT"] {
+    --m3-schemes-on-primary: rgba(0, 55, 49, 1);
+    --m3-schemes-primary: rgba(130, 213, 199, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(0, 55, 49, 0.12);
+}
+
+[data-m3-mode="cyan-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(1, 104, 125, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="cyan-DT"] {
+    --m3-schemes-on-primary: rgba(0, 54, 66, 1);
+    --m3-schemes-primary: rgba(134, 209, 234, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(0, 54, 66, 0.12);
+}
+
+[data-m3-mode="blue-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(72, 94, 146, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="blue-DT"] {
+    --m3-schemes-on-primary: rgba(21, 46, 96, 1);
+    --m3-schemes-primary: rgba(176, 198, 255, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(21, 46, 96, 0.12);
+}
+
+[data-m3-mode="indigo-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(91, 89, 146, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="indigo-DT"] {
+    --m3-schemes-on-primary: rgba(45, 41, 96, 1);
+    --m3-schemes-primary: rgba(197, 192, 255, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(45, 41, 96, 0.12);
+}
+
+[data-m3-mode="purple-LT"] {
+    --m3-schemes-on-primary: rgba(255, 255, 255, 1);
+    --m3-schemes-primary: rgba(107, 84, 141, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(255, 255, 255, 0.12);
+}
+
+[data-m3-mode="purple-DT"] {
+    --m3-schemes-on-primary: rgba(59, 37, 90, 1);
+    --m3-schemes-primary: rgba(214, 187, 251, 1);
+    --m3-state-layers-on-primary-opacity-12: rgba(59, 37, 90, 0.12);
+}
