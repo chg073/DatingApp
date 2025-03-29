@@ -3,5 +3,17 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    // ... other options
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "include": ["src", "declaration.d.ts"],
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.css",
+    "src/types/*.d.ts"
   ]
 }

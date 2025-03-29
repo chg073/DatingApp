@@ -9,6 +9,98 @@
   <component name="ChangeListManager">
     <list default="true" id="9df35466-a385-4da1-bddf-0f29af53a9b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/src/components/ui/input-otp.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/src/screens/InviteCode/InviteCode.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/src/screens/InviteCode/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/static/img/battery-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/battery-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/static/img/enter-key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/enter-key.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/static/img/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/key.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/static/img/line-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/line-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/static/img/line-system-arrow-left-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/line-system-arrow-left-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/static/img/network-signal-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/network-signal-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/static/img/time-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/time-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/static/img/wifi-signal-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/wifi-signal-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_2InviteCode/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/src/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/src/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/src/screens/PhoneNum/PhoneNum.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/src/screens/PhoneNum/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/battery-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/enter-key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/group-47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/line-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/line-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/line-system-arrow-left-line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/network-signal-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/time-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/static/img/wifi-signal-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_3Phone#/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/src/components/ui/input-otp.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/src/screens/VerifCode/VerifCode.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/src/screens/VerifCode/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/static/img/battery-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/static/img/enter-key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/static/img/key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/static/img/line-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/static/img/line-system-arrow-left-line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/static/img/network-signal-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/static/img/time-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/static/img/wifi-signal-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/RegiLogin_4Verify/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend figma/code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/images/fingers-touch.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/LandingCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +160,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gecha/PycharmProjects/DatingApp/Web/frontend/src/assets/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gecha/PycharmProjects/DatingApp/Web/frontend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\gecha\\PycharmProjects\\DatingApp\\Web\\frontend\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -83,6 +175,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gecha\PycharmProjects\DatingApp\Web\frontend\src\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gecha\PycharmProjects\DatingApp\Web\frontend" />
+      <recent name="C:\Users\gecha\PycharmProjects\DatingApp\Web\frontend\src" />
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
@@ -160,6 +256,9 @@
       <workItem from="1740440286825" duration="48000" />
       <workItem from="1740948736690" duration="29672000" />
       <workItem from="1741828476611" duration="3007000" />
+      <workItem from="1742075671097" duration="12453000" />
+      <workItem from="1742261252689" duration="13383000" />
+      <workItem from="1743273132411" duration="460000" />
     </task>
     <servers />
   </component>
