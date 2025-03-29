@@ -1,1 +1,0 @@
-export { InviteCode } from "./InviteCode";
